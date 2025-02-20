@@ -1,0 +1,12 @@
+Error: Invalid string format
+Error: Invalid string format
+    at Object.run (C:\Users\yacin\Desktop\yassmine\node_modules\@sapphire\shapeshift\dist\cjs\index.cjs:2475:64)
+    at C:\Users\yacin\Desktop\yassmine\node_modules\@sapphire\shapeshift\dist\cjs\index.cjs:972:67
+    at Array.reduce (<anonymous>)
+    at _StringValidator.parse (C:\Users\yacin\Desktop\yassmine\node_modules\@sapphire\shapeshift\dist\cjs\index.cjs:972:29)
+    at validateName (C:\Users\yacin\Desktop\yassmine\node_modules\@discordjs\builders\dist\index.js:1599:17)
+    at MixedClass.setName (C:\Users\yacin\Desktop\yassmine\node_modules\@discordjs\builders\dist\index.js:1701:5)
+    at Object.<anonymous> (C:\Users\yacin\Desktop\yassmine\src\commands\Other\floki.js:5:10)
+    at Module._compile (node:internal/modules/cjs/loader:1565:14)
+    at Object..js (node:internal/modules/cjs/loader:1708:10)
+    at Module.load (node:internal/modules/cjs/loader:1318:32)
