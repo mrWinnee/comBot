@@ -9,6 +9,7 @@ const { checkMissingIntents } = require('./functions/handlers/requiredIntents');
 const { antiCrash } = require('./functions/handlers/antiCrash');
 antiCrash();
 require('./functions/handlers/watchFolders');
+require('dotenv').config();
 const adminFolderPath = path.join(__dirname, '../admin');
 const dashboardFilePath = path.join(adminFolderPath, 'dashboard.js');
 
