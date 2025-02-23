@@ -7,6 +7,8 @@ const { eventsHandler } = require('./functions/handlers/handelEvents');
 const path = require('path');
 const { checkMissingIntents } = require('./functions/handlers/requiredIntents');
 const { antiCrash } = require('./functions/handlers/antiCrash');
+const env = require('dotenv').config();
+
 antiCrash();
 require('./functions/handlers/watchFolders');
 require('dotenv').config();
@@ -38,7 +40,7 @@ function logErrorToFile(error) {
 
 (async () => {
     try {
-        await client.login(config.bot.token);
+        await client.login(process.env.TOKEN);
         console.log(chalk.green.bold('SUCCESS: ') + 'Bot logged in successfully!');
         if (fs.existsSync(adminFolderPath) && fs.existsSync(dashboardFilePath)) {
             require(dashboardFilePath);

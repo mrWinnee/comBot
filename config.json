@@ -1,14 +1,14 @@
 {
   "bot": {
-    "token": "${TOKEN}",
-    "id": "${CLIENT_ID}",
+    "token": "TOKEN",
+    "id": "1342221029900156960",
     "admins": [
       "ADMIN_1",
       "ADMIN_2"
     ],
-    "ownerId": "${OWNER_ID}",
+    "ownerId": "510601958562856961", 
     "developerCommandsServerIds": [
-      "${SERVER_ID}"
+      "1342233696379605024"
     ]
   },
   "database": {
